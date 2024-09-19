@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    height: 80px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    font-size: 20px;
+}
+
+li {
+    transition: all 200ms linear;
+}
+
+li:hover {
+    color: #000000;
+    transition: all 200ms linear;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#menu {
+    color: rgb(243, 241, 241);
+    background-color: #5476d4;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#inicio {
+    background: url(https://senaies.com.br/wp-content/uploads/2022/04/Senai-Play.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    /* Altura da viewport */
+    padding-bottom: 20px;
+}
+
+#Senai {
+    background: linear-gradient(135deg, rgba(23, 76, 177, 1) 0%, rgba(134, 200, 231, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px 20px 20px;
+    height: 100vh;
+}
+
+.title {
+    text-align:left;
+    font-size: 2rem;
+    color: #080335;
+    margin-top: 0;
+}
+
+#Cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 30px 20px 20px 20px; 
+    height: 120vh;
+}
+
+.titleCurse {
+    text-align: center; /* Centraliza o texto */
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #080335; /* Cor do texto */
+    margin-top: 0; /* Remove margens superiores, se necessário */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    width: 100%; /* Garante que o título ocupe a largura total */
+}
+
+.left, .right {
+    display: flex; /* Mantém os elementos alinhados em linha */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: center; /* Centraliza horizontalmente */
+    width: 100%; /* Para ocupar a largura total */
+    margin-bottom: 20px; /* Espaçamento entre os grupos de conteúdo */
+}
+
+.description {
+    max-width: 500px; /* Limite de largura para o texto */
+    padding: 0 20px; /* Espaçamento interno para o texto */
+    text-align: justify; /* Justifica o texto para uma melhor aparência */
+}
+
+.imgCurse img {
+    max-width: 100%; /* Para garantir que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+#logo {
+    height: 20vh;
+    padding: 0px 350px 0px 1px;
+}
+
+.wrap-tecs {
+    width: 100%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.wrap-tecs>div {
+    background-color: #ffffff4d;
+    color: #090909;
+    width: 300px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px; 
+    background-color: #5476d4; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    width: 150px; 
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #405ea3; /* Cor de fundo ao passar o mouse */
+}
+
+footer {
+    background-color: #5476d4;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
